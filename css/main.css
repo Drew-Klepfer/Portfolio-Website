@@ -9878,7 +9878,7 @@ nav ul li a:hover:after {
 .banner {
   height: 100vh;
   background-size: cover;
-  background: linear-gradient(to bottom, #151617, #252934);
+  background: linear-gradient(to bottom, #151617, #223d58);
 }
 
 .banner-area {
@@ -9901,7 +9901,7 @@ nav ul li a:hover:after {
   /* padding: 8em 0; */
   padding-top: 13em;
   height: 100vh;
-  background: linear-gradient(to bottom, #252934, #151617);
+  background: linear-gradient(to bottom, #223d58, #151617);
 }
 
 .shadow {
@@ -10008,14 +10008,14 @@ nav ul li a:hover:after {
   color: #151617;
 }
 
-.education h5, .education .h5 {
-  color: #408697;
-  font-size: 20px;
+.education h2, .education h4, .education h5 {
+  color: #252934;
+  text-align: left
 }
 
 .languages li {
   list-style-type: circle;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .fas, .fab {
@@ -10051,7 +10051,7 @@ nav ul li a:hover:after {
 }
 
 #portfolio {
-  background: #252934;
+  background: #151617;
 }
 
 .port {
@@ -10113,7 +10113,7 @@ nav ul li a:hover:after {
 }
 
 .contact {
-  background: linear-gradient(to bottom, #252934, #151617);
+  background: linear-gradient(to bottom, #151617, #223d58);
   padding-top: 10em;
   text-align: center;
 }

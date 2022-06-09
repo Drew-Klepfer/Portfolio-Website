@@ -12,8 +12,6 @@ $text-color: white;
 $box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 $bg: #e4e5e6;
 
-//background: linear-gradient(to top, $main-color, $second-color);
-
 * {
     box-sizing: border-box;
 }
@@ -117,8 +115,6 @@ nav ul li a:hover:after {
     /* padding: 8em 0; */
     padding-top: 13em;
     height: 100vh;
-    background: linear-gradient(to bottom, $main-color, $second-color);
-    //background-color: $background-color;
 }
 .shadow {
     padding: 3em;
