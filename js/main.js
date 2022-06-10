@@ -14,41 +14,37 @@ $(function () {
         origin: 'top',
         distance: '100px',
         duration: 1000,
-        reset: true,
+        reset: false,
         delay: 500
     });
     sr.reveal('.experienceSlide', {
         origin: 'left',
         distance: '100px',
         duration: 1000,
-        reset: true,
+        reset: false,
         delay: 500
     });
     sr.reveal('.slide', {
         origin: 'right',
         distance: '100px',
         duration: 1000,
-        reset: true,
+        reset: false,
         delay: 500
     });
     sr.reveal('.portSlide', {
         origin: 'bottom',
         distance: '100px',
         duration: 1000,
-        reset: true,
+        reset: false,
         delay: 500
     });
     sr.reveal('.box', {
         origin: 'bottom',
         distance: '100px',
         duration: 1000,
-        reset: true,
+        reset: false,
         delay: 500,
-        rotate: {
-            x: 30,
-            y: 30,
-            z: 30
-        }
+        
     });
     sr.reveal('.contactSlide', {
         origin: 'bottom',
@@ -69,7 +65,7 @@ $(function () {
         backDelay: 1000,
         showCursor: false,
         });
-        var typed = new Typed('.type2', {
+        /* var typed = new Typed('.type2', {
         strings: ['learn about me...'],
         typeSpeed: 60,
         backSpeed: 60,
@@ -77,25 +73,6 @@ $(function () {
         backDelay: 1000,
         startDelay: 2300,
         autoInsertCss: true,
-    });
+        }); */
 
-    // skills carousel
-    $('.owl-carousel').owlCarousel({
-        margin:10,
-        loop:true,
-        autoplay:true,
-        autoplayTimeout: 1000,
-        autoplayHoverPause:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:2
-            },
-            1000:{
-                items:3
-            }
-        }
-    });
 });
