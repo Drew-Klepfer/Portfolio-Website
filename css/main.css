@@ -11230,7 +11230,7 @@ nav ul li a:hover:after {
 
 .about {
   /* padding: 8em 0; */
-  padding-top: 13em;
+  padding-top: 7em;
   height: 100vh;
   background: linear-gradient(to bottom, #183359, #252934);
 }
@@ -11287,6 +11287,9 @@ nav ul li a:hover:after {
   text-align: center;
   color: #151617;
   color: #1b3a66;
+}
+.left a {
+  text-decoration: none;
 }
 
 .right img {
@@ -11526,7 +11529,7 @@ footer {
   letter-spacing: 2px;
 }
 footer .fab {
-  color: #1b3a66;
+  color: #f8f8f8;
   font-size: 26px;
   text-decoration: none;
 }
@@ -11540,5 +11543,43 @@ footer .fab {
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+@media (max-width: 780px) {
+  nav {
+    display: none;
+  }
+
+  .header-grid {
+    display: inline;
+    text-align: center;
+    padding: 0.5em;
+  }
+
+  .main-grid {
+    grid-template-columns: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .port {
+    padding-top: 10em;
+  }
+
+  .cards {
+    grid-template-columns: none;
+  }
+
+  .box img {
+    width: 100%;
+    height: 40vw;
+    object-fit: cover;
+    bottom: 0%;
+  }
+
+  .form {
+    width: 70%;
   }
 }
