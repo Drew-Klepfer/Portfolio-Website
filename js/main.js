@@ -11,7 +11,7 @@ $(function () {
     
     window.sr = ScrollReveal();
     sr.reveal('.main-grid', {
-        origin: 'top',
+        origin: 'bottom',
         distance: '100px',
         duration: 1000,
         reset: false,
